@@ -20,6 +20,5 @@ if args.get("video", None) is None:
 # otherwise, we are reading from a video file
 else:
     vs = cv2.VideoCapture('C:\Users\lechnerri\PycharmProjects\MoveDetection\drop.avi')
-
 # initialize the first frame in the video stream
 firstFrame = None
