@@ -4,7 +4,7 @@
 # importing OpenCV, time and Pandas library
 import cv2, time, pandas
 # importing datetime class from datetime library
-from datetime import datetime 
+from datetime import datetime
 
 # Assigning our static_back to None
 static_back = None
