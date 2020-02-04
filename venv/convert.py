@@ -1,5 +1,5 @@
 import cv2
-vidcap = cv2.VideoCapture('Compton.mp4')
+vidcap = cv2.VideoCapture('drop.avi')
 success,image = vidcap.read()
 count = 0
 success = True
