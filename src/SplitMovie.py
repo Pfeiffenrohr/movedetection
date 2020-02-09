@@ -44,6 +44,6 @@ def video_to_frames(input_loc, output_loc):
 
 if __name__=="__main__":
 
-    input_loc = 'drop.avi'
+    input_loc = 'Testvideo.avi'
     output_loc = '../bilder'
     video_to_frames(input_loc, output_loc)
