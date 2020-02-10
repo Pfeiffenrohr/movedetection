@@ -15,6 +15,7 @@ def video_to_frames(input_loc, output_loc):
         os.mkdir(output_loc)
     except OSError:
         pass
+    
     # Log the time
     time_start = time.time()
     # Start capturing the feed
