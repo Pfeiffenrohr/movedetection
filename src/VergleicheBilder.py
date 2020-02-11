@@ -12,10 +12,10 @@ max=0;
 for i in range (1,9000):
 
     j=i+1
-    pic1 = Image.open("../bilder/"+str('%0.5d' %(i))+".jpg")
+    pic1 = Image.open("C:/temp/motion/dest/Testvideo1"+str('%0.5d' %(i))+".jpg")
     picBW1 = pic1.convert('L')
     picBW1 = picBW1.crop((400,400, 500,500))
-    pic2 = Image.open("../bilder/"+str('%0.5d' %(j))+".jpg")
+    pic2 = Image.open("C:/temp/motion/dest/Testvideo1"+str('%0.5d' %(j))+".jpg")
     picBW2 = pic2.convert('L')
     picBW2 = picBW2.crop((400,400, 500,500))
     diff1 = ImageChops.difference(picBW1,picBW2)
