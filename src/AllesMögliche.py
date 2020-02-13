@@ -1,5 +1,9 @@
 import os
+import sys
 import glob
+
+print (sys.argv[0])
+print (sys.argv[1])
 
 lines = []
 basedir =  "C:/temp/motion"
@@ -13,4 +17,4 @@ for line in lines:
   parts = line.split('.')
   path = os.path.join(dest_dir, parts [0])
   print(path)
-  os.mkdir(path)
+#  os.mkdir(path)
